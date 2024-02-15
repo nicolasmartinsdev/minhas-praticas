@@ -1,3 +1,7 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
 body{
     font-family: Montserrat, sans-serif;
     }
@@ -7,7 +11,10 @@ body{
     font-size: 16px;
     line-height: 24px;
   }
-
+  #sub{
+    margin-bottom: 30px;
+  }
+  
   .student-test{
     font-size: 18px;
     line-height: 20px;
@@ -19,6 +26,7 @@ body{
     line-height: 55px;
     font-weight: 600;
     letter-spacing: -2px;
+    margin-bottom: 30px;
   }
 
   .picture{
@@ -36,10 +44,24 @@ body{
     border-radius: 5px;      
     font-weight: 500;
   }
+  .header{
+    background-image: url(https://i.pinimg.com/originals/de/c5/71/dec57173cb2409cc2d2b5693355a3790.jpg);
+    background-size: cover;
+    padding: 60px 30px 40px;
+    background-position: 50% 25%;
+    
+  }
+  .header-content{
+    max-width: 550px;
+  }
+  .header-content p{
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
 
   /* Seletor de tag */
   h1, h2{
-    color: #20d3d6
+    color: white
   }
 
   /* Seletor de tag */
