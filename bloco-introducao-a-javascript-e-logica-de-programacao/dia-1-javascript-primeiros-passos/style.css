@@ -3,8 +3,7 @@ body{
 }
 .header{
     background-color: rgba(12, 11, 11, 0.781);
-    text-align: center;   
-    font-family: ;
+    text-align: center;       
     color: white;
     padding: 1px;
 }
@@ -14,12 +13,6 @@ body{
 .main-content{
     list-style-type: none;    
 }
-
-.main-content li::before {
-    content: '\2713';
-    margin-right: 0.5em;
-    background-color:green;
-    padding: 1px;
-    color: white;
-    border-radius: 40%;    
+.done::before {
+    content: '✅';
 }
