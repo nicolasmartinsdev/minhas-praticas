@@ -1,0 +1,18 @@
+body{
+    margin: 0%;    
+}
+.header{
+    background-color: rgba(12, 11, 11, 0.781);
+    text-align: center;       
+    color: white;
+    padding: 1px;
+}
+.main h1{
+    text-align: center;
+}
+.main-content{
+    list-style-type: none;    
+}
+.done::before {
+    content: '✅';
+}
